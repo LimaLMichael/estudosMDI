@@ -49,7 +49,7 @@ namespace EstudoMDI
 
             try
             {
-                querySQL = "INSERT INTO usuario(nomes,senha,idade)VALUES('" + txtBoxNome.Text + "','" + txtBoxSenha.Text + "'," + txtBoxIdade.Text + ")";
+                querySQL = "INSERT INTO usuario(nome,senha,idade)VALUES('" + txtBoxNome.Text + "','" + txtBoxSenha.Text + "'," + txtBoxIdade.Text + ")";
 
                 //PREPARA A CONEXAO
                 conexao = new SqlConnection(stringsqlconexao);
